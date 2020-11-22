@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lesson1</title>
+    
+</head>
+<body>
+    <script>
+        //task1-1
+        var Tc = 42
+        var Tf = (9/5) * Tc + 32
+        alert(Tf)
+                
+        //task1-2
+        var admin, name;
+        name = "Василий";
+        admin = name;
+        alert(admin);
+
+        //task1-3
+        var mat = 1000 + "108" //1000108
+        alert(mat)
+
+        //task1-4
+        //async - выполняеться пока страница полностю не загружена 
+        //defer - не заставляеть ждать когда полностю страница загрузиться 
+
+    </script> 
+</body>
+</html>
